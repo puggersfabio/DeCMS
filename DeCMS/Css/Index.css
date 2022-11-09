@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    background-color: #333333;
+    bottom: 0px;
+}
+    .foot-l {
+        color: #dbdbdb;
+        margin-left: 25px;       
+        font-family: DINPro,Helvetica,Arial,Sans-Serif;
+    }
+    .foot-l2 {
+        font-size: small;
+        color: #dbdbdb5e;
+        margin-left: 25px;   
+        font-family: DINPro,Helvetica,Arial,Sans-Serif;
+    }
+    .foot-l3 {
+        font-size: small;
+        color: #dbdbdb5e;
+        margin-left: 25px;
+        font-family: DINPro,Helvetica,Arial,Sans-Serif;
+    }
+        
+    .foot-r {
+        float: right;
+        color: #dbdbdb;
+        margin-right: 15px;  
+        font-family: DINPro,Helvetica,Arial,Sans-Serif;
+    }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+.footer{
+    display: none;
+}
+.introtekst{
+    font-size: 10px;
+}
+
+
+}
